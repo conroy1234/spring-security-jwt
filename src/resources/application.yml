@@ -1,0 +1,24 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: spring-security-jwt
+  h2:
+    console:
+      enabled: true
+      path: /h2
+  datasource:
+    url: jdbc:h2:mem:exchange
+    username: sa
+    password:
+    driverClassName: org.h2.Driver
+    show_sql: true
+  jps:
+    database-platform: org.hibernate.dialect.H2Dialect
+
+
+
+
+
+
+
